@@ -1,0 +1,26 @@
+{
+  "name": "@openbp/sdk",
+  "version": "1.0.0",
+  "description": "OpenBP js/ts SDK",
+  "homepage": "https://openbp.io",
+  "repository": "https://github.com/slamy-solutions/openbp-js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "openbp"
+  ],
+  "author": "Slamy Solutions",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@openbp/erp": "^0.0.2",
+    "@openbp/native": "^0.0.3",
+    "@openbp/system": "^1.0.0"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
